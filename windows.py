@@ -1,11 +1,12 @@
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets, uic
 
-style_text_edit = '.QTextEdit{ border-color: black; border-style: solid; background-color: black; color: white; }'
+style_text_edit =   '.QTextEdit{ border-color: black; border-style: solid; background-color: black;'\
+                    'color: white; }'
 
-style_button = '.QPushButton{ border-color: white; border-style: solid; border-radius: 3px; border-width: 2px;' \
-               ' background-color: #D0D0D0; color: black }' \
-               '.QPushButton:hover{ background-color: #505050; color: white }'
+style_button =  '.QPushButton{ border-color: white; border-style: solid; border-radius: 3px;'\
+                'border-width: 2px; background-color: #D0D0D0; color: black }'\
+                '.QPushButton:hover{ background-color: #505050; color: white }'
 
 
 class WinSun(QtWidgets.QMainWindow):
@@ -13,7 +14,7 @@ class WinSun(QtWidgets.QMainWindow):
         super(WinSun, self).__init__()
         uic.loadUi('GUI/sunGUI.ui', self)
         self.setWindowTitle('El Sol')
-        self.setWindowIcon(QtGui.QIcon('GUI/Iconos/sun.png'))
+        self.setWindowIcon(QtGui.QIcon('GUI/icons/sun.png'))
 
         self.text_info.setStyleSheet(style_text_edit)
         self.text_facts.setStyleSheet(style_text_edit)
@@ -31,7 +32,7 @@ class WinMoon(QtWidgets.QMainWindow):
         super(WinMoon, self).__init__()
         uic.loadUi('GUI/moonGUI.ui', self)
         self.setWindowTitle('La Luna')
-        self.setWindowIcon(QtGui.QIcon('GUI/Iconos/moon.png'))
+        self.setWindowIcon(QtGui.QIcon('GUI/icons/moon.png'))
 
         self.text_info.setStyleSheet(style_text_edit)
         self.text_facts.setStyleSheet(style_text_edit)
@@ -49,7 +50,7 @@ class WinMercury(QtWidgets.QMainWindow):
         super(WinMercury, self).__init__()
         uic.loadUi('GUI/mercuryGUI.ui', self)
         self.setWindowTitle('Mercurio')
-        self.setWindowIcon(QtGui.QIcon('GUI/Iconos/mercury.png'))
+        self.setWindowIcon(QtGui.QIcon('GUI/icons/mercury.png'))
 
         self.text_info.setStyleSheet(style_text_edit)
         self.text_facts.setStyleSheet(style_text_edit)
@@ -67,7 +68,7 @@ class WinVenus(QtWidgets.QMainWindow):
         super(WinVenus, self).__init__()
         uic.loadUi('GUI/venusGUI.ui', self)
         self.setWindowTitle('Venus')
-        self.setWindowIcon(QtGui.QIcon('GUI/Iconos/venus.png'))
+        self.setWindowIcon(QtGui.QIcon('GUI/icons/venus.png'))
 
         self.text_info.setStyleSheet(style_text_edit)
         self.text_facts.setStyleSheet(style_text_edit)
@@ -85,7 +86,7 @@ class WinEarth(QtWidgets.QMainWindow):
         super(WinEarth, self).__init__()
         uic.loadUi('GUI/earthGUI.ui', self)
         self.setWindowTitle('Tierra')
-        self.setWindowIcon(QtGui.QIcon('GUI/Iconos/earth.png'))
+        self.setWindowIcon(QtGui.QIcon('GUI/icons/earth.png'))
 
         self.text_info.setStyleSheet(style_text_edit)
         self.text_facts.setStyleSheet(style_text_edit)
@@ -103,7 +104,7 @@ class WinMars(QtWidgets.QMainWindow):
         super(WinMars, self).__init__()
         uic.loadUi('GUI/marsGUI.ui', self)
         self.setWindowTitle('Marte')
-        self.setWindowIcon(QtGui.QIcon('GUI/Iconos/mars.png'))
+        self.setWindowIcon(QtGui.QIcon('GUI/icons/mars.png'))
 
         self.text_info.setStyleSheet(style_text_edit)
         self.text_facts.setStyleSheet(style_text_edit)
@@ -121,7 +122,7 @@ class WinJupiter(QtWidgets.QMainWindow):
         super(WinJupiter, self).__init__()
         uic.loadUi('GUI/jupiterGUI.ui', self)
         self.setWindowTitle('Jupiter')
-        self.setWindowIcon(QtGui.QIcon('GUI/Iconos/jupiter.png'))
+        self.setWindowIcon(QtGui.QIcon('GUI/icons/jupiter.png'))
 
         self.text_info.setStyleSheet(style_text_edit)
         self.text_facts.setStyleSheet(style_text_edit)
@@ -139,7 +140,7 @@ class WinSaturn(QtWidgets.QMainWindow):
         super(WinSaturn, self).__init__()
         uic.loadUi('GUI/saturnGUI.ui', self)
         self.setWindowTitle('Saturno')
-        self.setWindowIcon(QtGui.QIcon('GUI/Iconos/saturn.png'))
+        self.setWindowIcon(QtGui.QIcon('GUI/icons/saturn.png'))
 
         self.text_info.setStyleSheet(style_text_edit)
         self.text_facts.setStyleSheet(style_text_edit)
@@ -157,7 +158,7 @@ class WinUranus(QtWidgets.QMainWindow):
         super(WinUranus, self).__init__()
         uic.loadUi('GUI/uranusGUI.ui', self)
         self.setWindowTitle('Urano')
-        self.setWindowIcon(QtGui.QIcon('GUI/Iconos/uranus.png'))
+        self.setWindowIcon(QtGui.QIcon('GUI/icons/uranus.png'))
 
         self.text_info.setStyleSheet(style_text_edit)
         self.text_facts.setStyleSheet(style_text_edit)
@@ -175,7 +176,7 @@ class WinNeptune(QtWidgets.QMainWindow):
         super(WinNeptune, self).__init__()
         uic.loadUi('GUI/neptuneGUI.ui', self)
         self.setWindowTitle('Neptuno')
-        self.setWindowIcon(QtGui.QIcon('GUI/Iconos/neptune.png'))
+        self.setWindowIcon(QtGui.QIcon('GUI/icons/neptune.png'))
 
         self.text_info.setStyleSheet(style_text_edit)
         self.text_facts.setStyleSheet(style_text_edit)

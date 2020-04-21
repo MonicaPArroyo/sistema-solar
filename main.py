@@ -1,11 +1,11 @@
 import sys
 from PyQt5 import QtGui, QtWidgets
-import planetario
+import planets
 
 
 def main():
     app = QtWidgets.QApplication(sys.argv)
-    ventana = planetario.SolarSystem() #Clase creada en planetario.py
+    ventana = planets.SolarSystem()
 
     sys.exit(app.exec_())
 

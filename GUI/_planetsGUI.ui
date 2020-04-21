@@ -63,7 +63,7 @@
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="sun_and_moon">
      <attribute name="title">
@@ -116,7 +116,7 @@
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>Iconos/sun.png</normaloff>Iconos/sun.png</iconset>
+           <normaloff>icons/sun.png</normaloff>icons/sun.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -176,7 +176,7 @@
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>Iconos/moon.png</normaloff>Iconos/moon.png</iconset>
+           <normaloff>icons/moon.png</normaloff>icons/moon.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -238,7 +238,7 @@
            </property>
            <property name="icon">
             <iconset>
-             <normaloff>Iconos/mercury.png</normaloff>Iconos/mercury.png</iconset>
+             <normaloff>icons/mercury.png</normaloff>icons/mercury.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -294,7 +294,7 @@
            </property>
            <property name="icon">
             <iconset>
-             <normaloff>Iconos/venus.png</normaloff>Iconos/venus.png</iconset>
+             <normaloff>icons/venus.png</normaloff>icons/venus.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -350,7 +350,7 @@
            </property>
            <property name="icon">
             <iconset>
-             <normaloff>Iconos/earth.png</normaloff>Iconos/earth.png</iconset>
+             <normaloff>icons/earth.png</normaloff>icons/earth.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -406,7 +406,7 @@
            </property>
            <property name="icon">
             <iconset>
-             <normaloff>Iconos/mars.png</normaloff>Iconos/mars.png</iconset>
+             <normaloff>icons/mars.png</normaloff>icons/mars.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -462,7 +462,7 @@
            </property>
            <property name="icon">
             <iconset>
-             <normaloff>Iconos/jupiter.png</normaloff>Iconos/jupiter.png</iconset>
+             <normaloff>icons/jupiter.png</normaloff>icons/jupiter.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -518,7 +518,7 @@
            </property>
            <property name="icon">
             <iconset>
-             <normaloff>Iconos/saturn.png</normaloff>Iconos/saturn.png</iconset>
+             <normaloff>icons/saturn.png</normaloff>icons/saturn.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -578,7 +578,7 @@
            </property>
            <property name="icon">
             <iconset>
-             <normaloff>Iconos/uranus.png</normaloff>Iconos/uranus.png</iconset>
+             <normaloff>icons/uranus.png</normaloff>icons/uranus.png</iconset>
            </property>
            <property name="iconSize">
             <size>
@@ -624,7 +624,7 @@
            </property>
            <property name="icon">
             <iconset>
-             <normaloff>Iconos/neptune.png</normaloff>Iconos/neptune.png</iconset>
+             <normaloff>icons/neptune.png</normaloff>icons/neptune.png</iconset>
            </property>
            <property name="iconSize">
             <size>

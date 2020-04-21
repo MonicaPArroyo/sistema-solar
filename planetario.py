@@ -4,9 +4,7 @@ import ventanas
 
 
 
-style_button = '.QPushButton{ border-color: black; border-style: solid; border-radius: 3px; border-width: 2px;' \
-               ' background-color: #101010; color: white }' \
-               '.QPushButton:hover{ background-color: #505050; color: black }'
+style_button = '.QPushButton{ border-color: black; border-style: solid; border-radius: 3px; border-width: 2px; background-color: #101010; color: white }.QPushButton:hover{ background-color: #505050; color: black }' #Estilos CSS para el botón
 
 bg_color = QtGui.QPalette()
 bg_color.setColor(QtGui.QPalette.Background, QtCore.Qt.black)

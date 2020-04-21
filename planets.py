@@ -30,7 +30,7 @@ class SolarSystem(QtWidgets.QMainWindow):
         self.button_uranus.setStyleSheet(style_button)
         self.button_neptune.setStyleSheet(style_button)
 
-        #Eventos. Al ser presionado el botón, se llama a la función correspondiente
+        #Events
         self.button_sun.clicked.connect(self.click_button_sun)
         self.button_moon.clicked.connect(self.click_button_moon)
 
@@ -47,36 +47,36 @@ class SolarSystem(QtWidgets.QMainWindow):
 
         self.show()
 
-    def play_chorus(self): #Reproduce el sonido de fondo
+    def play_chorus(self):
         chorus=QtMultimedia.QSound
         chorus.play('GUI/sound/chorus.wav')
 
-    def click_button_sun(self): #Abre la ventana Sol
+    def click_button_sun(self):
         self.sun = windows.WinSun()
         self.sun.setPalette(bg_color)
         self.sun.show()
 
-    def click_button_moon(self): #Abre la ventana Luna
+    def click_button_moon(self): 
         self.moon = windows.WinMoon()
         self.moon.setPalette(bg_color)
         self.moon.show()
 
-    def click_button_mercury(self): #Abre la ventana Mercurio
+    def click_button_mercury(self): 
         self.mercury = windows.WinMercury()
         self.mercury.setPalette(bg_color)
         self.mercury.show()
 
-    def click_button_venus(self): #Abre la ventana Venus
+    def click_button_venus(self): 
         self.venus = windows.WinVenus()
         self.venus.setPalette(bg_color)
         self.venus.show()
 
-    def click_button_earth(self): #Abre la ventana Tierra
+    def click_button_earth(self): 
         self.earth = windows.WinEarth()
         self.earth.setPalette(bg_color)
         self.earth.show()
 
-    def click_button_mars(self): #Abre la ventana
+    def click_button_mars(self): 
         self.mars = windows.WinMars()
         self.mars.setPalette(bg_color)
         self.mars.show()
